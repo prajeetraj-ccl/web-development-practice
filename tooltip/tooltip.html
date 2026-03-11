@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toolipt</title>
+    <style>
+ .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px ;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 107%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip2{
+      position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+.tooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltiptext2::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+}
+    </style>
+</head>
+<body>
+    <h2>Right-aligned Toolipt</h2>
+    <p>move the mouse over the text below</p>
+    <div class="tooltip">Hover Me 
+    <span class="tooltiptext">Hovered</span>
+    </div>
+
+ 
+<h2>Bottom-aligned Tooltip with top Arrow</h2>
+
+<div class="tooltip2">Hover over me
+  <span class="tooltiptext2">Hovered 2</span>
+</div>
+</body>
+</html>
