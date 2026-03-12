@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../images/Rectangle.png),url(../images/hand-touching.png);
+    background-size: cover,cover;
+    background-repeat: no-repeat, no-repeat;
+}
+.con{
+   
+    color: white;
+   padding-right: 220px;
+    margin-bottom: 70px;
+}
+
+.con h1{
+ width: 300px;
+ font-size: 50px;
+}
+.con p{
+width: 500px;
+font-size: 25px;
+}
