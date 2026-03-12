@@ -1,5 +1,12 @@
-.container{
- background-image: url(../images/Rectangle.png) ,url(../images/hand-touching.png);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 0;
+
+}
+
+.master{
+ background-image: linear-gradient(to right, rgba(39, 245, 235, 0.0), rgba(39, 245, 235, 0.8)),url(../images/hand-touching.png);
  background-size: cover,cover;
  background-position: center,center;
  background-repeat: no-repeat;
@@ -8,8 +15,8 @@
 }
 .con1{
     display: inline-block;
-    margin-top: 050px;
-    margin-left: 1080px;
+    margin-top: 70px;
+    margin-left: 1110px;
     color: white;
 }
 .con1 h1{

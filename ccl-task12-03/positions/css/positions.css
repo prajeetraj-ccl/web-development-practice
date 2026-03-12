@@ -1,19 +1,34 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box 0;
+    
+}
 .container{
     width: 100%;
-    border: 1px;
-    position: relative;
-    height: 500px;
 }
-.con img{
+.master{
+    width: 100%;
+    border: 1px;
+    /* position: relative; */
+    height: 500px;
+    background-image: linear-gradient(to right, rgba(39, 245, 235, 0.0), rgba(39, 245, 235, 0.8)),url(../images/hand-touching.png);
+    background-repeat: no-repeat;
+    background-position: center,center;
+    background-size: cover,cover;
+  
+}
+
+/* .con img{
     width: 100%;
     position: absolute;
     top: 0%;
     height: 500px;
-}
+} */
 .con1{
     position: absolute;
     top: 10;
-    left: 1080px;
+    left: 1090px;
     top: 50px;
     color: white;
 }
