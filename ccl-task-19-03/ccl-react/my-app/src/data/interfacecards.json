@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "odepen",
+    "title": "Complex Enterprise",
+    "description": "Scale globally without consultant lock-in. Build capability that compounds."
+  },
+  {
+    "icon": "ode",
+    "title": "Critical Infrastructure",
+    "description": "Keep 24/7/365 operations in your control, safely and sustainably."
+  },
+  {
+    "icon": "person",
+    "title": "Government Public Sector",
+    "description": "Protect taxpayer investment and build permanent civil service capability."
+  },
+  {
+    "icon": "cloud",
+    "title": "Cloud Solutions",
+    "description": "Secure, scalable cloud infrastructure for your business growth."
+  }
+]
